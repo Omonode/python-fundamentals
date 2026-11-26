@@ -1,19 +1,3 @@
-# ============================================================
-# LAGOS TECH WEEK — EVENT REGISTRATION SYSTEM
-# File name: event_registration.py
-#
-# Manages attendee registration and session sign-ups for a
-# 3-day conference at Landmark Centre, Victoria Island.
-#
-# NO OOP: the brief's two "classes" (Attendee and Session) are
-# built from DICTIONARIES plus ordinary FUNCTIONS instead:
-#   - each attendee is a dict:  {"name", "email", "phone", "ticket_type"}
-#   - each session is a dict:   {"title", "speaker", "capacity", "attendees"}
-#   - each "method" is a function that takes the dict as its first input
-# Tools used: Topics 1–13 only (variables, loops, conditionals,
-# strings, lists, dicts, functions, try/except, modules, CSV files).
-# ============================================================
-
 import csv
 import datetime
 
